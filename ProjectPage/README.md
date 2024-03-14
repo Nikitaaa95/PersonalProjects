@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 
 Adding some details from Personal Webpage from Module 2
+Also pulled project details from prior ReadMEs
