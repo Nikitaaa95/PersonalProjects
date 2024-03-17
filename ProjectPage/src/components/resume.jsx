@@ -3,6 +3,8 @@ import React from 'react';
 function AboutMe() {
   return (
     <section>
+      <a href="/resume.pdf" download>Download Resume</a>
+
       <h2>Nikita Maryann Thomas</h2>
       <p>
         Phone: (510) 378-2656 • nikitamthomas@gmail.com • 202 W 84th St, New York, NY 10024
@@ -90,3 +92,4 @@ function AboutMe() {
 }
 
 export default AboutMe;
+

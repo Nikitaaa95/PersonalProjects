@@ -11,6 +11,7 @@ function App() {
     <Router>
       <div>
         <Header />
+        <div style={{ paddingTop: '200px' }}>
         <Routes>
           <Route exact path="/" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
@@ -18,6 +19,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />
+      </div>
       </div>
     </Router>
   );
