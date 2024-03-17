@@ -11,15 +11,15 @@ function App() {
     <Router>
       <div>
         <Header />
-        <div style={{ paddingTop: '200px' }}>
-        <Routes>
-          <Route exact path="/" element={<AboutMe />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
+        <div style={{ paddingTop: '200px', paddingBottom: '100px' }}>
+          <Routes>
+            <Route exact path="/" element={<AboutMe />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </div>
         <Footer />
-      </div>
       </div>
     </Router>
   );

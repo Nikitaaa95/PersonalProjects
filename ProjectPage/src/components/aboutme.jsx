@@ -3,7 +3,6 @@ import React from 'react';
 function AboutMe() {
   return (
     <section id="about-me" className="container">
-      <h2>About Me</h2>
       <div className="row">
         <div className="col-md-6">
           <img

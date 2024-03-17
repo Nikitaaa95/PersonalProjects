@@ -33,7 +33,6 @@ function Contact() {
 
   return (
     <section id="contact" className="container">
-      <h2 className="text-center mb-4">Contact</h2>
       <div className="row justify-content-center">
         <div className="col-md-12"> 
           <div className="text-center"> 
