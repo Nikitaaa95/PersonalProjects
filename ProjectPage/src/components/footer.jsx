@@ -6,6 +6,7 @@ function Footer() {
       <nav className="d-flex flex-column justify-content-end">
         <a href="https://github.com/Nikitaaa95">GitHub</a>
         <a href="https://www.linkedin.com/in/nikita-thomas-34b9a153/">LinkedIn</a>
+        <a href="https://www.instagram.com/nikitamthomas/">Instagram</a>
       </nav>
     </footer>
   );
