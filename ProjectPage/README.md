@@ -6,3 +6,6 @@ Helped build my mainpage
 
 Projects ReadME
 Recycled descriptions from past ReadMEs
+
+Quinton - BCS Assistance
+--- Help with netlify deployment
