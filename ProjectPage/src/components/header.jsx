@@ -1,27 +1,26 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
   const location = useLocation();
 
   return (
     <header>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/" className={location.pathname === '/' ? 'active' : ''}>About Me</Link>
-          </li>
-          <li>
-            <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'active' : ''}>Portfolio</Link>
-          </li>
-          <li>
-            <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link>
-          </li>
-          <li>
-            <Link to="/resume" className={location.pathname === '/resume' ? 'active' : ''}>Resume</Link>
-          </li>
-        </ul>
-      </nav>
+      <ul className="nav nav-tabs">
+        <li className="nav-item">
+          <Link to="/" className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}>About Me</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/portfolio" className={`nav-link ${location.pathname === '/portfolio' ? 'active' : ''}`}>Portfolio</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/contact" className={`nav-link ${location.pathname === '/contact' ? 'active' : ''}`}>Contact</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/resume" className={`nav-link ${location.pathname === '/resume' ? 'active' : ''}`}>Resume</Link>
+        </li>
+      </ul>
     </header>
   );
 }
