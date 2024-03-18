@@ -9,6 +9,19 @@ This portfolio project showcases my skills and projects as a web developer. It i
 - Install dependencies: npm install
 - Start the development server: npm start
 - Open in the link provided in the CLI
+- Click between About Me, Portfolio, Contact Me, and Resume tabs to view site material
+### About Me
+![Image of about me page](public/aboutME.png)
+
+### Portfolio
+![Image of portfolio page](public/portfolio.png)
+
+### Contact Me
+![Image of contact me page](public/contact.png)
+
+### Resume
+![Image of resume page](public/resume.png)
+
 
 ## Ideas for future improvement
 - Deploy succesfully
@@ -30,3 +43,4 @@ Recycled descriptions from past ReadMEs
 ### BCS Assistance
 Quinton --- Help with netlify deployment
 Charles --- Attempt to fix netlify error
+
