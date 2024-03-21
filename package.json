@@ -9,7 +9,10 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "vite"
+    "start": "vite",
+    "build": "npm-run-all build:*",
+    "build:dev": "vite build",
+    "build:prod": "npm start"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
