@@ -10,8 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "build:dev": "vite build",
-    "build:prod": "npm start"
-  },
+    },
   "dependencies": {
     "bootstrap": "^5.3.3",
     "react": "^18.2.0",
