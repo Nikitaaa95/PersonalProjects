@@ -6,7 +6,7 @@ function AboutMe() {
       <div className="row">
         <div className="col-md-6">
           <img
-            src="/public/My-picture.jpeg"
+            src="/My-picture.jpeg"
             alt="Picture of Nikita at a tea garden"
             className="img-fluid"
           />
